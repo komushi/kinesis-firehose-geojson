@@ -23,7 +23,8 @@ curl -X PUT "https://search-estokyo-hcioeeiwecw6qhwzd45z2uv6au.ap-northeast-1.es
 ```
 
 ### 3. Create a Firehose delivery stream called 'geojson'
-https://docs.aws.amazon.com/elasticsearch-service/latest/developerguide/es-gsg-create-domain.html
+https://docs.aws.amazon.com/firehose/latest/dev/basic-create.html
+https://docs.aws.amazon.com/firehose/latest/dev/create-destination.html#create-destination-elasticsearch
 
 * Index: index_geojson
 * Type: type_geojson
